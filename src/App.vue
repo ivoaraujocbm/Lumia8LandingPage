@@ -4,12 +4,13 @@
 
     <Hero />
 
-    
+    <AppShowcase />
 
   </div>
 </template>
 
 <script setup>
+import AppShowcase from './components/AppShowcase.vue';
 import Hero from './components/Hero.vue';
 import Navbar from './components/Navbar.vue';
 
